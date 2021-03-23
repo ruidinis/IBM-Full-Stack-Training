@@ -9,6 +9,8 @@ function getLanguageTranslator() {
   let api_key = process.env.API_KEY;
   let api_url = process.env.API_URL;
 
+  console.log(api_url)
+
   const LanguageTranslatorV3 = require('ibm-watson/language-translator/v3');
   const { IamAuthenticator } = require('ibm-watson/auth');
 
