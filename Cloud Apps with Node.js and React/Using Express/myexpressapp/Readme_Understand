@@ -1,0 +1,10 @@
+# To use scripts to start the app
+vi package.json -->
+scripts": {
+    "start": "node index.js",
+
+# To auto restart the server after a change in the code
+npm install --save-dev nodemon
+vi package.json  -->
+  "scripts": {
+    "start" : "nodemon index.js",
